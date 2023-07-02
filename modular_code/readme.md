@@ -1,14 +1,3 @@
-### Install all the dependencies
-
-pip install -r requirements.txt
-
-### Run the engine.py file to execute the code
-
-### Enter 1 to train the model
-
-### Enter 2 to run the FastAPI app.py file to run the web application
-# Real Estate Prediction Regression
-
 This repository contains modular code for real estate prediction regression, a task that involves predicting the prices or values of real estate properties. The code is designed to facilitate the regression analysis of real estate data using various features and data points.
 
 ## Table of Contents
@@ -48,15 +37,18 @@ Once you have the repository and dependencies set up, you can use the modular co
 
 2. Use the provided modules and code files to perform tasks such as data preprocessing, feature engineering, model training, evaluation, and prediction. The modular structure allows you to customize and combine different components based on your requirements.
 
-3. Start with the `data_preprocessing.py` module to preprocess your dataset, handle missing values, perform feature scaling, and encode categorical variables.
+3. Start with the `EDA.py` module to preprocess your dataset, handle missing values, perform feature scaling, and encode categorical variables.
 
 4. Use the `feature_engineering.py` module to create additional features or transform existing features to enhance the predictive power of your model.
 
-5. Utilize the `model_training.py` module to train and optimize your regression model using various algorithms such as linear regression, decision trees, random forests, or gradient boosting.
+5. Utilize the `ML Model building.py` module to train and optimize your regression model using various algorithms such as linear regression,rigde regression,lasso regression, decision trees, random forests, or gradient boosting.
 
 6. Evaluate the performance of your trained models using the `model_evaluation.py` module. Calculate metrics such as mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), or R-squared to assess the model's effectiveness.
 
-7. Finally, use the trained model to make predictions on new real estate property data using using the FastAPI interface using the `engine.py` module.
+7. Finally, use the trained model to make predictions on new real estate property data using using the using the `engine.py` module.
+
+8. Enter 1 to train the model or Enter 2 to run the FastAPI app.py file to run the web application
+
 
 Feel free to modify the provided code, add your own algorithms, or customize the workflow to suit your specific real estate prediction regression needs.
 
